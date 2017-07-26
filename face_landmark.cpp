@@ -130,12 +130,10 @@ int main()
             Point x = Point(int(feat2[2*i]*(tmp.right() - tmp.left()) + tmp.left()),int(feat2[2*i + 1]*(tmp.bottom() - tmp.top()) + tmp.top()));
             cv::circle(image, x, 0.1, Scalar(0, 0, 255), 4, 8, 0);
         }
-        free(data);
-        imshow("result", image);
-        imwrite("/Users/nice/Downloads/caffe-master/CaffeMac/CaffeMac/result.jpg", image);
-        
+        free(data);    
     }
-    
+    imshow("result", image);
+    imwrite("/Users/nice/Downloads/caffe-master/CaffeMac/CaffeMac/result.jpg", image);
     free(net);
     
     image.release();
