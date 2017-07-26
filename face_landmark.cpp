@@ -22,9 +22,9 @@ using namespace dlib;
 
 int main()
 {
-    string network = "/Users/nice/Downloads/caffe-master/CaffeMac/CaffeMac/Models/landmark_deploy.prototxt";
-    string weights = "/Users/nice/Downloads/caffe-master/CaffeMac/CaffeMac/Models/landmark.caffemodel";
-    string img = "/Users/nice/Downloads/caffe-master/CaffeMac/CaffeMac/test.jpg";
+    string network = "/Users/CaffeMac/CaffeMac/Models/landmark_deploy.prototxt";
+    string weights = "/Users/CaffeMac/CaffeMac/Models/landmark.caffemodel";
+    string img = "/Users/CaffeMac/CaffeMac/test.jpg";
     Net<float> *net = new Net<float>(network,TEST);
     
     net->CopyTrainedLayersFrom(weights);
