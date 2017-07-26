@@ -1,5 +1,6 @@
 # face-landmark-localization
 This is a project predict face landmarks (68 points).
+Speed : 5ms per face on i5-2.7GHz CPU.
 
 
 ## Install
