@@ -133,7 +133,7 @@ int main()
         free(data);    
     }
     imshow("result", image);
-    imwrite("/Users/nice/Downloads/caffe-master/CaffeMac/CaffeMac/result.jpg", image);
+    imwrite("/Users/CaffeMac/CaffeMac/result.jpg", image);
     free(net);
     
     image.release();
