@@ -16,3 +16,4 @@ This is a project predict face landmarks (68 points).
 
 ## Result
 ![](result/1_result.jpg)
+![](result/8_result.jpg)
