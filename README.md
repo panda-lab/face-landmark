@@ -15,5 +15,5 @@ This is a project predict face landmarks (68 points).
 - Command : ./face_lardmark
 
 ## Result
-![](result/1_result.jpg)
+![](result/7_result.jpg)
 ![](result/8_result.jpg)
