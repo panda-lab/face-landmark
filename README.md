@@ -1,7 +1,7 @@
 # face-landmark-localization
-This is a project predict face landmarks (68 points).Model size is 3.3MB.
+This is a project predict face landmarks (68 points).
+- Model Size : 3.3MB.
 - Speed : 5ms per face on i5-2.7GHz CPU.
-
 
 ## Install
 - [caffe](https://github.com/BVLC/caffe)
