@@ -14,6 +14,9 @@ This is a project predict face landmarks (68 points).
 
 - Command : ./face_lardmark
 
+## notice
+- This model was trained on dlib face detector. Other face detector may not get landmark result as well as dlib
+
 ## Result
 ![](result/7_result.jpg)
 ![](result/8_result.jpg)
