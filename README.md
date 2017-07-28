@@ -6,7 +6,7 @@ This is a project predict face landmarks (68 points).
 ## Install
 - [caffe](https://github.com/BVLC/caffe)
 - [dlib face detector](http://dlib.net/)
-- add dlib.so to your project lib path
+- add libdlib.a to your project lib path
 - add face_lardmark.cpp to your caffe project example folder
 - opencv<p>
 
