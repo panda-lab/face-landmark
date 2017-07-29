@@ -12,8 +12,8 @@ This is a project predict face landmarks (68 points).
 
 ## Usage
 
-- Command : ./face_lardmark 
--- python face_landmark.py (created by [jiangwqcooler](https://github.com/jiangwqcooler))
+- CPP Demo : ./face_lardmark 
+- Python Demo: python face_landmark.py (created by [jiangwqcooler](https://github.com/jiangwqcooler))
 
 ## notice
 - This model was trained on dlib face detector. Other face detector may not get landmark result as good as dlib
