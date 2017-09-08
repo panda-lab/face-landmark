@@ -1,0 +1,15 @@
+net: "ZOO/train_60_medium.prototxt"
+type: "Adam"
+test_iter: 30
+test_interval: 5000
+base_lr: 0.000001
+momentum: 0.9
+momentum2: 0.999
+lr_policy: "fixed"
+gamma:0.8
+stepsize:100000
+display: 2500
+max_iter: 1500000
+snapshot: 5000
+snapshot_prefix: "caffeData/snapshots/snap"
+solver_mode: GPU
