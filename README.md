@@ -1,4 +1,5 @@
 # face-landmark-localization
+### [高精度106点请参考](https://github.com/zeusees/HyperLandmark)
 This is a project predict face landmarks (68 points).
 - Model Size : 3.3MB.
 - Speed : 5ms per face on i5-2.7GHz CPU.
